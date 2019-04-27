@@ -1,0 +1,6 @@
+第一步：cd进入你放项目文件的地址
+第二步：输入git init
+第三步：输入git add .  
+第四步输入git commit -m "first commit"，表示你对这次提交的注释，双引号里面的内容可以根据个人的需要修改。
+第五步输入git remote add origin https://自己的仓库url地址（上面有说到） 将本地的仓库关联到github上。
+最后一步，输入git push -u origin master，这是把代码上传到github仓库的意思
